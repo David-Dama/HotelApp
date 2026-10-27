@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.prometeodam.HotelAppIndividual.Controller.HotelController">
+    <padding>
+        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+    </padding>
+
+    <children>
+        <Label text="Hotel Sol - Sistema de Reservas">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+
+        <Label text="Introduce el número de habitación:" />
+
+        <!-- Campo de texto para el número -->
+        <TextField fx:id="txtNumeroHabitacion" maxWidth="150.0" promptText="Ej. 101" />
+
+        <!-- Botón de búsqueda -->
+        <Button fx:id="btnBuscar" onAction="#handleBuscarHabitacion" text="Buscar" defaultButton="true" />
+
+        <!-- Label donde se mostrará el resultado -->
+        <Label fx:id="lblResultado" text="Resultado: -">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+</VBox>

@@ -1,0 +1,5 @@
+es\prometeodam\HotelAppIndividual\service\GestorXML.class
+es\prometeodam\HotelAppIndividual\model\Habitacion.class
+es\prometeodam\HotelAppIndividual\Controller\HotelController.class
+es\prometeodam\HotelAppIndividual\model\Hotel.class
+es\prometeodam\HotelAppIndividual\Main.class
